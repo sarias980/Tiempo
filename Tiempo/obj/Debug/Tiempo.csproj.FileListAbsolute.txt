@@ -1,0 +1,17 @@
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\bin\Debug\Tiempo.exe.config
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\bin\Debug\Tiempo.exe
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\bin\Debug\Tiempo.pdb
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.csprojResolveAssemblyReference.cache
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\MainWindow.g.cs
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\App.g.cs
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo_MarkupCompile.cache
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo_MarkupCompile.lref
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\MainWindow.baml
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.g.resources
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.Properties.Resources.resources
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.csproj.GenerateResource.Cache
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.csproj.CoreCompileInputs.cache
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.exe
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Tiempo.pdb
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Agregar1.baml
+C:\Users\Sergi\source\repos\Tiempo\Tiempo\obj\Debug\Agregar1.g.cs

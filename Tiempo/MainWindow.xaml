@@ -1,0 +1,35 @@
+﻿<Window x:Class="Tiempo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tiempo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="291.333" Width="525" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid Margin="0,-3,-0.333,-2">
+        <Menu x:Name="Menu" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="519" Margin="0,0,-0.333,0">
+            <Menu.ItemBindingGroup>
+                <BindingGroup/>
+            </Menu.ItemBindingGroup>
+            <MenuItem x:Name="File" Header="File">
+                <MenuItem x:Name="Exit" Header="Exit" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="HoraSecundaria" Width="105" Header="Hora Secundaria">
+                <MenuItem Header="Nuevo" Click="Crear_Hora_Secundaria"/>
+                <MenuItem Header="Eliminar" Click="Eliminar_Hora_Secundaria"/>
+            </MenuItem>
+            <MenuItem Header="Help" Click="MenuItem_Click"/>
+        </Menu>
+        <TextBox x:Name="Hora" HorizontalAlignment="Left" Height="46" Margin="40,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontWeight="Bold" FontSize="18" AcceptsTab="True" AcceptsReturn="True" AutoWordSelection="True" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,36,0,0" TextWrapping="Wrap" Text="Hora actual:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="296,38,0,0"><Run Text="Alarma:"/></TextBlock>
+        <RadioButton x:Name="radio_on" Content="ON" HorizontalAlignment="Left" Margin="357,39,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="radio_off" Content="OFF" HorizontalAlignment="Left" Margin="420,39,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <TextBox x:Name="textoAlarma" HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" Text="hh:mm:ss" VerticalAlignment="Top" Width="163" Margin="296,70,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,180,0,0" TextWrapping="Wrap" Text="2ª Hora:" VerticalAlignment="Top"/>
+        <TextBox x:Name="Hora_2" HorizontalAlignment="Left" Height="46" Margin="296,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontWeight="Bold" FontSize="18" AcceptsTab="True" AcceptsReturn="True" AutoWordSelection="True" IsReadOnly="True"/>
+        <ComboBox x:Name="Horas" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="95,180,0,0" SelectionChanged="Horas_SelectionChanged">
+        </ComboBox>
+
+    </Grid>
+</Window>
